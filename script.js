@@ -1,4 +1,4 @@
-const apiKey = "391d0728933441a6322a2ea21b1488e5"; // Your OpenWeatherMap API key
+const apiKey = ""; // Your OpenWeatherMap API key
 
 
 function formatSunTime(timestamp) {
@@ -313,4 +313,5 @@ const handleGeolocation = () => {
 document.addEventListener('DOMContentLoaded', handleGeolocation);
 
 // Wiring the new Live Location button
+
 document.getElementById("liveLocationBtn").addEventListener("click", handleGeolocation);
